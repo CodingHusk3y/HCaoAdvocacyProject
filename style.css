@@ -1,0 +1,304 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ecf6e5;
+}
+
+/* Part 1: Navbar */
+/* General style rule set for all items in ul */
+
+#theme-button {
+  text-decoration: underline;
+  /* Example: adds underline to the text */
+  font-family: 'Arial', sans-serif;
+  /* Example: changes font */
+  color: #ff9900;
+  /* Example: changes text color */
+  padding: 10px 20px;
+  /* Example: adds padding to the button */
+  border: 2px solid #ff9900;
+  /* Example: adds a solid border with color */
+  border-radius: 5px;
+  /* Example: rounds the corners */
+  background-color: #333;
+  /* Example: changes background color */
+  transition: all 0.3s ease;
+  /* Example: adds smooth transition effect */
+}
+
+#theme-button:hover {
+  background-color: #ff9900;
+  /* Example: changes background color on hover */
+  color: #333;
+  /* Example: changes text color on hover */
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+  float: left;
+  margin: 10px;
+}
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+  font-family: Arial;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+  font-weight: bold;
+}
+
+/* Part 2: Flexbox */
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(2) {}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(1) {
+  justify-content: center;
+  /* Horizontally center the image */
+  align-items: center;
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {}
+
+/* Style set for all flex-items */
+.flex-item {
+  background: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* CSS ruleset for the header class */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  background-color: #538047;
+  padding: 10px;
+}
+
+.header-item:nth-of-type(2) {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.header-item:nth-of-type(1) {
+  margin-bottom: 5px;
+}
+
+
+
+/* CSS ruleset for the header-button class */
+.header-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: #0056b3;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center the image */
+  align-items: center;
+  /* Use flexbox to arrange images horizontally */
+}
+
+
+/* Apply styles to each image within the container */
+.image-container img {
+  margin-right: 50px;
+  max-width: 100%;
+  /* Ensure the image doesn't exceed the container width */
+  max-height: 100%;
+  /* Add spacing between the images (adjust as needed) */
+}
+
+/*when you're done, apply it to any div*/
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* CSS ruleset for paragraphs */
+p {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* CSS ruleset for headings (h1-h6) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #0f2702;
+  /* Change color as per your design */
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* CSS ruleset for links */
+a:link {
+  color: #44ff00;
+  /* Normal link color */
+  text-decoration: none;
+  /* Remove underline by default */
+}
+
+a:visited {
+  color: #8f01d0;
+  /* Visited link color */
+}
+
+a:hover {
+  color: #0056b3;
+  /* Link color on hover */
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+a:active {
+  color: #0056b3;
+  /* Active link color */
+}
+
+.special-text {
+  font-style: italic;
+  /* Applies italic style */
+  color: #ff6600;
+  /* Sets text color to orange */
+}
+
+/* CSS ruleset for a specific ID */
+#unique-element {
+  background-color: #f4f4f4;
+  /* Sets background color to light gray */
+  padding: 20px;
+  /* Adds padding inside the element */
+  border: 1px solid #ccc;
+  /* Adds a border with a light gray color */
+  border-radius: 10px;
+  /* Rounds the corners of the element */
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+#github_link {
+  text-align: center;
+}
+
+.stat {
+  margin-left: 20px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/* Style rules for the petition paragraph */
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+
+/* Style rules for the signatures */
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background: pink;
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
