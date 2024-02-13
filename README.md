@@ -43,6 +43,10 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/internship-search-website.git
 
+2. Start the server:
+  Open with live sever
+  Access the application in your web browser at http://localhost:3000.
+
 ## Contributing
 
 Contributions are welcome! Please follow the Contributing Guidelines to contribute to this project.
