@@ -233,12 +233,9 @@ a:active {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #000;
 }
 
-.dark-mode p {
-  color: white;
-}
 .dark-mode p {
   color: #fff;
 }
