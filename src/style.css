@@ -10,7 +10,7 @@ html {
 #theme-button {
   text-decoration: underline;
   /* Example: adds underline to the text */
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   /* Example: changes font */
   color: #ff9900;
   /* Example: changes text color */
@@ -65,7 +65,8 @@ html {
 }
 
 /* Style rules for flex-item 1 */
-.flex-item:nth-of-type(2) {}
+.flex-item:nth-of-type(2) {
+}
 
 /* Style rules for flex-item 2 */
 .flex-item:nth-of-type(1) {
@@ -75,7 +76,8 @@ html {
 }
 
 /* Style rules for flex-item 3 */
-.flex-item:nth-of-type(3) {}
+.flex-item:nth-of-type(3) {
+}
 
 /* Style set for all flex-items */
 .flex-item {
@@ -110,8 +112,6 @@ html {
   margin-bottom: 5px;
 }
 
-
-
 /* CSS ruleset for the header-button class */
 .header-button {
   background-color: #007bff;
@@ -128,7 +128,6 @@ html {
   background-color: #0056b3;
 }
 
-
 .image-container {
   display: flex;
   justify-content: center;
@@ -136,7 +135,6 @@ html {
   align-items: center;
   /* Use flexbox to arrange images horizontally */
 }
-
 
 /* Apply styles to each image within the container */
 .image-container img {
@@ -238,6 +236,9 @@ a:active {
   background-color: black;
   color: white;
 }
+.dark-mode p {
+  color: #fff;
+}
 
 .petition-container {
   display: flex;
@@ -275,7 +276,12 @@ a:active {
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* 40% opacity black - other elements can still be seen */
   flex-direction: column; /* these flexbox rules center the content on the screen */
   align-items: center;
   justify-content: center;
