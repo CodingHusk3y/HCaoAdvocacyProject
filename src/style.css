@@ -235,10 +235,10 @@ a:active {
 .dark-mode {
   background-color: black;
 }
-.dark-mode {
+.dark-mode p,
+.dark-mode #sign-petition label {
   color: white;
 }
-
 .petition-container {
   display: flex;
   flex-direction: row;
