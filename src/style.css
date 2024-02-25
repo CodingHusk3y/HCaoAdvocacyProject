@@ -233,11 +233,10 @@ a:active {
 }
 
 .dark-mode {
-  background-color: #000;
+  background-color: black;
 }
-
-.dark-mode p {
-  color: #fff;
+.dark-mode {
+  color: white;
 }
 
 .petition-container {
