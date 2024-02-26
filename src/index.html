@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -39,180 +40,119 @@
       <button class="header-button header-button:hover" type="button">Upload Resume</button>
       <button type="button" class="header-button header-button:hover">Opportunities</button>
     </div>
+  </div>
 
-    <div class="header-container">
-      <div class="navbar">
-        <ul>
-          <li><a href="#">Freshmen</a></li>
-          <li><a href="#">Sophomore</a></li>
-          <li><a href="#">Junior</a></li>
-          <li><a href="#">Senior</a></li>
-          <li><button id="theme-button">Toggle Dark Mode</button></li>
-          <!-- Stretch Challenge: Drop Down -->
-        </ul>
+  <!--- About --->
+  <h2>About My Website</h2>
+  <p>The purpose of my website is to help international students find internship opportunities in the US, which do not
+    require a working visa or require US citizenship to apply, and will accept OPT/CPT. My website will also suggest the
+    internships that they may be qualified for based on their current year of study. Moreover, the website will also
+    provide the resources that students may need in their preparation.
+  </p>
+
+
+  <!--- Data --->
+
+  <div class="stat">
+    <h4 class="left-aligned"> International Students in US by Country of Origin – 2022 </h4>
+    <img
+      src="https://statisticsanddata.org/wp-content/uploads/2022/12/International-students-in-US-by-country-of-origin.png"
+      width=750 px height=500 px />
+    <ul class="special-text">
+      <li style="color: green;"> less than 15%</li>
+      <li> 15%-25%</li>
+      <li> 25%-35%</li>
+      <li> 35%-45%</li>
+      <li style="color: red;"> >45%</li>
+    </ul>
+  </div>
+  <!---Practice (will be deleted)--->
+  <!---Add the class to this container, Hopefully you will be able to see it better. Also, I added one more thing to the class to better demonstrate how the box model should work--->
+
+  <!--- Impact --->
+  <div class="video-container">
+    <h2>Tips from expert</h2>
+    <iframe class="video-container" width="560" height="315"
+      src="https://www.youtube.com/embed/I1418MC5tCc?si=AuphxLrwLUj71FYE" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+
+  <div>
+    <h3>Don't know where to start?</h3>
+    <p id="github_link">Check out this <a href="https://github.com/SimplifyJobs/Summer2024-Internships"
+        target="_blank">GitHub
+        repository</a>.</p>
+  </div>
+
+
+  <!--- News --->
+  <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+  <div class="petition" id="petition">
+
+    <h2>We Want to Hear From You 📢</h2>
+    <div class="petition-container">
+      <div class="petition-para">
+        <p>
+          Your opinion matters to us! At Greenternship, we are committed to providing the best possible experience for
+          international students searching for internships. We value your feedback and insights immensely. Whether
+          you've had a fantastic experience, encountered a challenge, or have ideas for improvement, we encourage you to
+          share your thoughts with us.
+          Thank you for being a part of our community and for helping us make Greenternship the best it can be. Your
+          feedback drives our progress, and we are grateful for your contribution.
+        </p>
+        <form id="sign-petition">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
       </div>
-      <h1>Welcome to Internship searching website for international student</h1>
-      <h3>
-        This website is created to help International students finding for
-        internships
-      </h3>
-      <img
-        class="header-item"
-        src="https://www.debt.org/wp-content/uploads/2013/04/Student-Internship.jpg"
-        alt="Internship image 2"
-        width="300"
-        px
-        height="200"
-        px
-      />
-      <div class="header-item">
-        <button class="header-button header-button:hover" type="button">
-          Upload Resume
-        </button>
-        <button type="button" class="header-button header-button:hover">
-          Opportunities
-        </button>
+
+      <div class="feedback">
+        <p>🖊️ We believe that your input is invaluable in shaping the future of our platform.</p>
+        <p>🖊️ Your feedback helps us enhance our services, create a more supportive environment for every aspiring
+          intern.</p>
+        <p>🖊️ Please take a moment to let us know about your experience.</p>
       </div>
+
     </div>
+    <div class="petition-form">
+      <!--- Sign Petition Form --->
 
-    <!--- About --->
-    <h2>About My Website</h2>
-    <p>
-      The purpose of my website is to help international students find
-      internship opportunities in the US, which do not require a working visa or
-      require US citizenship to apply, and will accept OPT/CPT. My website will
-      also suggest the internships that they may be qualified for based on their
-      current year of study. Moreover, the website will also provide the
-      resources that students may need in their preparation.
-    </p>
-
-    <!--- Data --->
-
-    <div class="stat">
-      <h4 class="left-aligned">
-        International Students in US by Country of Origin – 2022
-      </h4>
-      <img
-        src="https://statisticsanddata.org/wp-content/uploads/2022/12/International-students-in-US-by-country-of-origin.png"
-        width="750"
-        px
-        height="500"
-        px
-      />
-      <ul class="special-text">
-        <li style="color: green">less than 15%</li>
-        <li>15%-25%</li>
-        <li>25%-35%</li>
-        <li>35%-45%</li>
-        <li style="color: red">>45%</li>
-      </ul>
     </div>
-    <!---Practice (will be deleted)--->
-    <!---Add the class to this container, Hopefully you will be able to see it better. Also, I added one more thing to the class to better demonstrate how the box model should work--->
+  </div>
+  <script src="script.js"></script>
 
-    <!--- Impact --->
-    <div class="video-container">
-      <h2>Tips from expert</h2>
-      <iframe
-        class="video-container"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/I1418MC5tCc?si=AuphxLrwLUj71FYE"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    </div>
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
 
-    <div>
-      <h3>Don't know where to start?</h3>
-      <p id="github_link">
-        Check out this
-        <a
-          href="https://github.com/SimplifyJobs/Summer2024-Internships"
-          target="_blank"
-          >GitHub repository</a
-        >.
-      </p>
-    </div>
-
-    <!--- News --->
-    <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
-    <div class="petition" id="petition">
-      <h2>We Want to Hear From You 📢</h2>
-      <div class="petition-container">
-        <div class="petition-para">
-          <p>
-            Your opinion matters to us! At Greenternship, we are committed to
-            providing the best possible experience for international students
-            searching for internships. We value your feedback and insights
-            immensely. Whether you've had a fantastic experience, encountered a
-            challenge, or have ideas for improvement, we encourage you to share
-            your thoughts with us. Thank you for being a part of our community
-            and for helping us make Greenternship the best it can be. Your
-            feedback drives our progress, and we are grateful for your
-            contribution.
-          </p>
-          <form id="sign-petition">
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="form-group">
-              <label for="comments">Comments:</label>
-              <textarea id="comments" name="comments" rows="4"></textarea>
-            </div>
-            <button type="submit">Send</button>
-          </form>
-        </div>
-
-        <div class="feedback">
-          <p>
-            🖊️ We believe that your input is invaluable in shaping the future of
-            our platform.
-          </p>
-          <p>
-            🖊️ Your feedback helps us enhance our services, create a more
-            supportive environment for every aspiring intern.
-          </p>
-          <p>🖊️ Please take a moment to let us know about your experience.</p>
-        </div>
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <!-- text here -->
+        <button id="close-modal-button">Close</button>
       </div>
-      <div class="petition-form">
-        <!--- Sign Petition Form --->
-      </div>
+      <!-- image here-->
+      <img id="modal-image" src="https://www.crownconnect.com/assets/ThankYou.jpg" />
     </div>
-    <script src="script.js"></script>
 
-    <!-- Modal -->
-    <div id="thanks-modal" class="modal">
-      <!-- Modal content -->
-      <div class="modal-content">
-        <div id="modal-text-container">
-          <!-- text here -->
-          <button id="close-modal-button">Close</button>
-        </div>
-        <!-- image here-->
-        <img
-          id="modal-image"
-          src="https://www.crownconnect.com/assets/ThankYou.jpg"
-        />
-      </div>
-    </div>
-    <!--
+  </div>
+  <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-    <script
-      src="https://replit.com/public/js/replit-badge-v2.js"
-      theme="dark"
-      position="bottom-right"
-    ></script>
-  </body>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
 </html>
